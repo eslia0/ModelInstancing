@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="cube.cpp" />
+    <ClCompile Include="global.cpp" />
+    <ClCompile Include="Model3D.cpp" />
+    <ClCompile Include="MyGlWindow.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Viewer.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="ModelManager.cpp" />
+    <ClCompile Include="Anim3D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cube.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="Loader.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Model3D.h" />
+    <ClInclude Include="ModelView.h" />
+    <ClInclude Include="MyGlWindow.h" />
+    <ClInclude Include="Viewer.h" />
+    <ClInclude Include="ModelManager.h" />
+    <ClInclude Include="Anim3D.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\modelAnim.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\modelAnim.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\modelAnim.comp">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{36e7ac2b-2307-4abf-8a25-036fa7b2c194}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
